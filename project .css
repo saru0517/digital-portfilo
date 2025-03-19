@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cce7ff; /* Light Blue Background */
+    text-align: center;
+}
+
+header {
+    background-color: #00509e;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-pic {
+    width: 2in;
+    height: 2in;
+    border-radius: 5px;
+    border: 2px solid #00509e;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #00509e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    background-color: #003f7f;
+}
+
